@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Contacts Information</title>
+  <script type="text/javascript" src="script.js"></script>
+  <style media="screen">
+  @media (min-width: 750px) {
+  .contact {
+  width: 50%;
+  float: left;
+  }
+
+  .lst p, .lst input, .lst, h3 {
+    display: inline-block;
+  }
+  .hide .loc, .hide .num {
+    display: none;
+  }
+  </style>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <div class="all">
+    <h1>Contacts</h1>
+    <h3>display only</h3>
+    <div class="lst">
+    <p>names</p>
+    <input type="checkbox" class="nameFilter" onclick="nameFilter()" />
+    </div>
+  </div>
+
+
+</body>
+</html>
